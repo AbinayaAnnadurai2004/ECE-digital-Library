@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    color: #ededed;
+}
+
+.backgroundimg{
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    background-color: #000;
+}
+
+.tabhead{
+    font-size: 28px;
+    color: yellow;
+    margin-right: 130px;
+}
+
+
+
+.logo{
+    
+    margin: 0px;
+    position: relative;
+    font-size:25px ;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 150px;
+}
+
+.navbar a{
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color:#000;
+    background-color:whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: .3s;
+    font-weight: bold;
+
+}
+
+
+.gif{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+.semcon{
+    text-align: center;
+    color: black;
+    width: 100%;
+    background-position: center;
+    display: none;
+    align-items: center;
+    padding: 70px;
+    font-size: 22px;
+
+
+}
+
+.semcon marquee{
+    color: #000;
+    margin-top: 100px;
+    font-weight: bold (arial);
+    font-size: 28px;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(13, 89, 4);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.semcon a{
+    text-decoration: none;
+    text-transform: lowercase;
+    color:rgb(225, 13, 13);
+}
+
+.semcon li{
+    display: inline-block;
+}
+.semcon p{
+    color: rgb(32, 85, 209);
+}
+
+.semcon a:hover{
+    background-color: rgb(11, 172, 236);
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.semcon img{
+    width: 100vw;
+    height: 50vh;
+    margin-left: -80px;
+}
+
+.con{
+    font-weight: bold;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    display: block;
+    min-height: 100vh;
+    background-color:white;
+    position:relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.bubble{
+    position: relative;
+    display: flex;
+}
+
+.bubble span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #e0ed29;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fdc7044,
+    0 0 50px  #e0ed29,
+    0 0 100px  #e0ed29;
+    animation: animate 100ms linear infinite;
+    animation-duration: calc(80s / var(--i));
+}
+
+.bubble span:nth-child(even){
+    background-color: #ff2d75;
+    box-shadow: 0 0 0 10px #ff2d7544,
+    0 0 50px #ff2d75,
+    0 0 100px #ff2d75;
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+.container ul{
+    margin: 100px 400px 100px;
+    font-size: 26px;
+    width: 100vw;
+    color: #000;
+    margin-top: 200px;
+    line-height: 40px;
+    
+}
+
+.home{
+    background-color: #2a2828;
+    display: inline-block;
+    min-width: 200px;
+}
+
+.home1 {
+    margin-left: 30px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    padding: 2px;
+}
+.home1 img{
+    border: #000;
+    box-shadow: 5px 5px rgb(221, 211, 211);
+    vertical-align: top;
+}
+.home1 p{
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
